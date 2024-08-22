@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
@@ -28,8 +28,7 @@ import { HomeComponent } from './modules/home/home.component';
     CardModule,
     InputTextModule,
     ButtonModule,
-    ToastModule,
-
+    ToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]
