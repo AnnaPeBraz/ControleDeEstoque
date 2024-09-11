@@ -5,10 +5,10 @@ import { DasboardHomeComponent } from './page/dasboard-home/dasboard-home.compon
 import { RouterModule } from '@angular/router';
 import { DASHBOARD_ROUTES } from './dashboard.routing';
 import { ButtonModule } from 'primeng/button';
-import { SidebarModule, SideBarModule } from 'primeng/sidebar';
+import { SidebarModule } from 'primeng/sidebar';
 import { CardModule } from 'primeng/card';
 import { ToastModule } from 'primeng/toast';
-import { ToolbarModule, ToolBarModule } from 'primeng/toolbar';
+import { ToolbarModule } from 'primeng/toolbar';
 import { CookieService } from 'ngx-cookie-service';
 import { MessageService } from 'primeng/api';
 
